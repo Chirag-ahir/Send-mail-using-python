@@ -1,13 +1,15 @@
+#this program send mail using SMTP protocol. 
+
 import time
 import smtplib
 from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-gmail_user = "ahirchirag8125@gmail.com"
-gmail_pwd = "180170111001"
-FROM = ['ahirchirag8125@gmail.com']
-TO = ['ahirchirag1459@gmail.com'] #must be a list
+gmail_user = "****************"
+gmail_pwd = "***************"
+FROM = ['solutionelearning@gmail.com']
+TO = ['pantechelearning@gmail.com'] #must be a list
 
 msg = MIMEMultipart()
 time.sleep(1)
